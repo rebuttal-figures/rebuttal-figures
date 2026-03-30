@@ -481,7 +481,6 @@ Figure 6: The experimental results about the patience hyperparameter of values {
 <p><em>Table 6: Summary of theoretical convergence rates. Here, T is the total communication rounds, K is local epochs, C is total clients, and $\kappa$ represents the condition number of the local Hessian/preconditioner.</em></p>
 
 
-
 <table>
   <thead>
     <tr>
@@ -495,51 +494,50 @@ Figure 6: The experimental results about the patience hyperparameter of values {
     <tr>
       <td><strong>FedAvg</strong></td>
       <td align="center">1st</td>
-      <td align="center">$\mathcal{O}\left( \frac{1}{\sqrt{C K T}} + \frac{\sigma^2}{E} \right)$</td>
-      <td>Severely penalized by the massive client drift term ($\sigma^2$).</td>
+      <td align="center">\(\mathcal{O}\left( \frac{1}{\sqrt{C K T}} + \frac{\sigma^2}{E} \right)\)</td>
+      <td>Severely penalized by the massive client drift term (\(\sigma^2\)).</td>
     </tr>
     <tr>
       <td><strong>FedAvgM</strong></td>
       <td align="center">1st</td>
-      <td align="center">$\mathcal{O}\left( \frac{1}{\sqrt{C K T}} + \frac{\sigma^2}{E} \right)$</td>
+      <td align="center">\(\mathcal{O}\left( \frac{1}{\sqrt{C K T}} + \frac{\sigma^2}{E} \right)\)</td>
       <td>Momentum smooths trajectory empirically but retains the drift penalty.</td>
     </tr>
     <tr>
       <td><strong>FedProx</strong></td>
       <td align="center">1st</td>
-      <td align="center">$\mathcal{O}\left( \frac{1}{\sqrt{C K T}} + \mathcal{O}(\mu) \right)$</td>
-      <td>Proximal term $\mu$ restricts drift but forces prohibitively slow convergence.</td>
+      <td align="center">\(\mathcal{O}\left( \frac{1}{\sqrt{C K T}} + \mathcal{O}(\mu) \right)\)</td>
+      <td>Proximal term \(\mu\) restricts drift but forces prohibitively slow convergence.</td>
     </tr>
     <tr>
       <td><strong>FedAdam</strong></td>
       <td align="center">1st</td>
-      <td align="center">$\mathcal{O}\left( \frac{1}{\sqrt{C K T}} + \text{Drift} \right)$</td>
+      <td align="center">\(\mathcal{O}\left( \frac{1}{\sqrt{C K T}} + \text{Drift} \right)\)</td>
       <td>Server-side adaptivity fails to correct local curvature distortions.</td>
     </tr>
     <tr>
       <td><strong>SCAFFOLD</strong></td>
       <td align="center">1st</td>
-      <td align="center">$\mathcal{O}\left( \frac{1}{\sqrt{C K T}} \right)$</td>
+      <td align="center">\(\mathcal{O}\left( \frac{1}{\sqrt{C K T}} \right)\)</td>
       <td>Control variates critically lag or diverge in extreme label skew.</td>
     </tr>
     <tr>
       <td><strong>LocalNewton</strong></td>
       <td align="center">2nd</td>
-      <td align="center">$\mathcal{O}\left( \frac{\kappa^2}{T} \right)$ or <strong>Diverges</strong></td>
-      <td>Catastrophically diverges as condition number $\kappa \to \infty$ under skew.</td>
+      <td align="center">\(\mathcal{O}\left( \frac{\kappa^2}{T} \right)\) or <strong>Diverges</strong></td>
+      <td>Catastrophically diverges as condition number \(\kappa \to \infty\) under skew.</td>
     </tr>
     <tr>
       <td><strong>FedPM</strong></td>
       <td align="center">2nd</td>
       <td align="center">Superlinear</td>
-      <td>Proof strictly restricted to <strong>Strongly Convex</strong> and $K=1$.</td>
+      <td>Proof strictly restricted to <strong>Strongly Convex</strong> and \(K=1\).</td>
     </tr>
     <tr>
       <td><strong>FedRCO (Ours)</strong></td>
       <td align="center"><strong>2nd</strong></td>
-      <td align="center"><strong>$\mathcal{O}\left( \frac{1}{T} \right)$</strong></td>
-      <td><strong>Strictly bounds $\kappa \le \kappa_{\max}$</strong>, ensuring non-convex stability for $K>1$.</td>
+      <td align="center"><strong>\(\mathcal{O}\left( \frac{1}{T} \right)\)</strong></td>
+      <td><strong>Strictly bounds \(\kappa \le \kappa_{\max}\)</strong>, ensuring non-convex stability for \(K>1\).</td>
     </tr>
   </tbody>
 </table>
-
