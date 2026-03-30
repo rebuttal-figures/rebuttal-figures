@@ -82,7 +82,7 @@ Figure 6: The experimental results about the patience hyperparameter of values {
       <td align="center"><strong>115.19</strong></td><td align="center"><strong>2530.93</strong></td>
       <td align="center"><strong>232.36</strong></td><td align="center"><strong>5309.16</strong></td>
       <td align="center"><strong>418.76</strong></td><td align="center"><strong>N/A</strong></td>
-      <td align="center">11687.80</td><td align="center">5808.76</td>
+      <td align="center"><strong>11687.80<strong></td><td align="center"><strong>5808.76<strong></td>
     </tr>
     <tr>
       <td><strong>Comm. Rounds</strong></td>
@@ -90,7 +90,7 @@ Figure 6: The experimental results about the patience hyperparameter of values {
       <td align="center"><strong>14</strong></td><td align="center"><strong>750</strong></td>
       <td align="center"><strong>29</strong></td><td align="center"><strong>1469</strong></td>
       <td align="center"><strong>52</strong></td><td align="center"><strong>N/A</strong></td>
-      <td align="center">1600</td><td align="center">1600</td>
+      <td align="center"><strong>1600<strong></td><td align="center"><strong>1600<strong></td>
     </tr>
   </tbody>
 </table>
