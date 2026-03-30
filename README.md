@@ -2,39 +2,32 @@
 
 <img width="570" height="300" alt="cifar100" src="https://github.com/user-attachments/assets/76fa7316-05e1-43b0-9313-fd2b28e83553" />
 <br>
-<br>
 Figure 1: The experimental results on CIFAR-100 under the Dirichlet-non 0.1 setting with client number 100, and the party ratio 0.8.
-
+<br>
 <img width="570" height="300" alt="resnet" src="https://github.com/user-attachments/assets/2055349a-e104-48f5-842b-57a11da9fa17" />
 <br>
-<br>
 Figure 2: The experimental results on CIFAR-10 using ResNet-9 under the Dirichlet-non 0.1 setting with client number 100, and the party ratio 0.8.
-
+<br>
 <img width="570" height="300" alt="vit" src="https://github.com/user-attachments/assets/6469b8e8-0f50-4580-b9f1-d7c7490646ce" />
 <br>
-<br>
 Figure 3: The experimental results on CIFAR-10 using ViT under the Dirichlet-non 0.1 setting with client number 100, and the party ratio 0.8.
-
+<br>
 <img width="570" height="300" alt="jichu" src="https://github.com/user-attachments/assets/58b377a7-02f7-4e38-8654-03f33e6dcdd7" />
 <br>
-<br>
 Figure 4: The experimental results on CIFAR-10 using baseline CNN under the Dirichlet-non 0.1 setting with client number 100, and the party ratio 0.8.
-
+<br>
 <img width="570" height="300" alt="tau_low" src="https://github.com/user-attachments/assets/30ffba87-863f-48c2-b15b-9363e41b0952" />
 <br>
-<br>
 Figure 5: The experimental results about $\tau_{low}$ of values {5,10,20,50}.
-
+<br>
 <img width="570" height="300" alt="tau" src="https://github.com/user-attachments/assets/fc6b1da3-0adb-4a42-add7-46f0de931360" />
 <br>
-<br>
 Figure 6: The experimental results about the patience hyperparameter of values {50,100,150}.
-
-
 <br>
+
 <br>
 <p><em>Table 1: Wall-clock time analysis (in seconds) and communication rounds required to achieve target global accuracies. 'N/A' indicates the algorithm failed to reach the target accuracy within the maximum 1600 rounds.</em></p>
-
+<br>
 <table>
   <thead>
     <tr>
