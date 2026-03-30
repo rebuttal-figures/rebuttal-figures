@@ -493,3 +493,4 @@ Figure 6: The experimental results about the patience hyperparameter of values {
 | **FedPM** | 2nd | Superlinear | Proof strictly restricted to **Strongly Convex** and $K=1$. |
 | **FedRCO (Ours)** | **2nd** | **$\mathcal{O}\left( \frac{1}{T} \right)$** | **Strictly bounds $\kappa \le \kappa_{\max}$**, ensuring non-convex stability for $K>1$. |
 
+<br><br>
