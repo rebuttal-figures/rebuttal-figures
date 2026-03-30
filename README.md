@@ -1,6 +1,6 @@
 
 
-<img width="5761" height="3024" alt="cifar100" src="https://github.com/user-attachments/assets/76fa7316-05e1-43b0-9313-fd2b28e83553" />
+<img width="3000" height="1500" alt="cifar100" src="https://github.com/user-attachments/assets/76fa7316-05e1-43b0-9313-fd2b28e83553" />
 Figure 1: The experimental results on CIFAR-100 under the Dirichlet-non 0.1 setting with client number 100, and the party ratio 0.8.
 
 <img width="5732" height="3024" alt="resnet" src="https://github.com/user-attachments/assets/2055349a-e104-48f5-842b-57a11da9fa17" />
