@@ -1,4 +1,18 @@
 
+<img width="570" height="300" alt="rebuttalnew_scaffold" src="https://github.com/user-attachments/assets/2426355a-650b-4a7e-9f36-0d50561018b9" />
+<br>
+Figure 7: The grid search results of SCAFFOLD on different local learning rates and global learning rates.
+<br><br><br>
+<img width="570" height="300" alt="rebuttalnew_cifar10" src="https://github.com/user-attachments/assets/32b23c40-f586-46fd-a1be-a94bf7619bb8" />
+<br>
+Figure 8: The experimental results on CIFAR-10 under the Dirichlet-non 0.1 setting with client number 100, and the party ratio 0.8.
+<br><br><br>
+<img width="570" height="300" alt="rebuttalnew_renset18_cifar100" src="https://github.com/user-attachments/assets/97c67606-1ba7-438e-8b8c-be8906c24038" />
+<br>
+Figure 9: The experimental results on CIFAR-100 under the ResNet-18 model.
+<br><br><br>
+
+
 
 <img width="570" height="300" alt="cifar100" src="https://github.com/user-attachments/assets/76fa7316-05e1-43b0-9313-fd2b28e83553" />
 <br>
